@@ -4,45 +4,46 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace project_1_prime
+namespace perfect_number
 {
     class Program
     {
-        static void Main(string[] args)
+        public static double method(double input)
         {
-            Console.WriteLine("Please Enter The Start Number:");
-            int n1 = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Please Enter The End Number:");
-
-            int n2 = int.Parse(Console.ReadLine());
-            for (int i = n1; i <= n2; i++)
+            double sum = 0;
+            for (double i = 1; i < input; i++)
             {
-                bool number = true;
-                if (i == 1)
+                if (input % i == 0)
                 {
-                    number = false;
-
-                }
-                else
-                {
-                    for (int j = 2; j < i; j++)
-                    {
-                        if (i % j == 0)
-                        {
-                            number = false;
-                            break;
-                        }
-                    }
-                    if (number)
-                    {
-                        Console.WriteLine("the prime number is:");
-                        Console.WriteLine(i);
-                    }
+                    sum = sum + i;
                 }
 
             }
+
+            return sum;
+
+        }
+
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Please Enter The lowest number");
+
+            double n1 = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Please Enter The The biggest number");
+
+            double n2 = double.Parse(Console.ReadLine());
+
+            for (double i = n1; i < n2; i++)
+            {
+                double result = method(i);
+                if (i == result)
+                {
+                    Console.WriteLine(i + " is a perfect number");
+                }
+            }
+
             Console.ReadKey();
         }
     }
-}
+}   

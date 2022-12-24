@@ -1,0 +1,7 @@
+C:\Users\xmoha\source\repos\perfect number\perfect number\bin\Debug\perfect number.exe.config
+C:\Users\xmoha\source\repos\perfect number\perfect number\bin\Debug\perfect number.exe
+C:\Users\xmoha\source\repos\perfect number\perfect number\bin\Debug\perfect number.pdb
+C:\Users\xmoha\source\repos\perfect number\perfect number\obj\Debug\perfect number.csproj.AssemblyReference.cache
+C:\Users\xmoha\source\repos\perfect number\perfect number\obj\Debug\perfect number.csproj.CoreCompileInputs.cache
+C:\Users\xmoha\source\repos\perfect number\perfect number\obj\Debug\perfect number.exe
+C:\Users\xmoha\source\repos\perfect number\perfect number\obj\Debug\perfect number.pdb
