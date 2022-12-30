@@ -1,7 +1,0 @@
-C:\Users\xmoha\source\repos\project 1 prime\project 1 prime\bin\Debug\project 1 prime.exe.config
-C:\Users\xmoha\source\repos\project 1 prime\project 1 prime\bin\Debug\project 1 prime.exe
-C:\Users\xmoha\source\repos\project 1 prime\project 1 prime\bin\Debug\project 1 prime.pdb
-C:\Users\xmoha\source\repos\project 1 prime\project 1 prime\obj\Debug\project 1 prime.csproj.AssemblyReference.cache
-C:\Users\xmoha\source\repos\project 1 prime\project 1 prime\obj\Debug\project 1 prime.csproj.CoreCompileInputs.cache
-C:\Users\xmoha\source\repos\project 1 prime\project 1 prime\obj\Debug\project 1 prime.exe
-C:\Users\xmoha\source\repos\project 1 prime\project 1 prime\obj\Debug\project 1 prime.pdb
