@@ -1,0 +1,7 @@
+C:\Users\xmoha\source\repos\prime 12\prime 12\bin\Debug\prime 12.exe.config
+C:\Users\xmoha\source\repos\prime 12\prime 12\bin\Debug\prime 12.exe
+C:\Users\xmoha\source\repos\prime 12\prime 12\bin\Debug\prime 12.pdb
+C:\Users\xmoha\source\repos\prime 12\prime 12\obj\Debug\prime 12.csproj.AssemblyReference.cache
+C:\Users\xmoha\source\repos\prime 12\prime 12\obj\Debug\prime 12.csproj.CoreCompileInputs.cache
+C:\Users\xmoha\source\repos\prime 12\prime 12\obj\Debug\prime 12.exe
+C:\Users\xmoha\source\repos\prime 12\prime 12\obj\Debug\prime 12.pdb

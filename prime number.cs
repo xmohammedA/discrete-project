@@ -4,45 +4,46 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace project_1_prime
+namespace prime_12
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please Enter The Start Number:");
-            int n1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the lowest number");
+            int min = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter the highest number");
+            int max = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Please Enter The End Number:");
-
-            int n2 = int.Parse(Console.ReadLine());
-            for (int i = n1; i <= n2; i++)
+            
+            while (min <= max)
             {
-                bool number = true;
-                if (i == 1)
+                int n = 0;
+                int d = 2;
+                if (min == 1)
                 {
-                    number = false;
+                    min++;
+                    continue;
+                }
+                while (d < min)
+                {
+
+                    if (min % d == 0)
+                    {
+                        n++;
+                    }
+                    d++;
 
                 }
-                else
+                if (n == 0)
                 {
-                    for (int j = 2; j < i; j++)
-                    {
-                        if (i % j == 0)
-                        {
-                            number = false;
-                            break;
-                        }
-                    }
-                    if (number)
-                    {
-                        Console.WriteLine("the prime number is:");
-                        Console.WriteLine(i);
-                    }
+                    Console.WriteLine("the resilt = " + min);
                 }
 
+
+                min++;
             }
-            Console.ReadKey();
+            Console.ReadLine();
         }
     }
 }
